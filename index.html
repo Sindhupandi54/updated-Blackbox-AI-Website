@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-Commerce Apparel Company</title>
+	<style>
+		/* Global Styles */
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		/* Header Styles */
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		.header a {
+			color: #fff;
+			text-decoration: none;
+		}
+		
+		/* Tile Styles */
+		.tile {
+			background-color: #fff;
+			border: 1px solid #ddd;
+			padding: 20px;
+			margin: 20px;
+			width: 250px;
+			display: inline-block;
+		}
+		
+		.tile img {
+			width: 100%;
+			height: 150px;
+			object-fit: cover;
+		}
+		
+		.tile.product-title {
+			font-weight: bold;
+			margin-top: 10px;
+		}
+		
+		.tile.product-price {
+			color: #666;
+			font-size: 18px;
+		}
+		
+		/* Footer Styles */
+		.footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			clear: both;
+		}
+		
+		/* Responsive Design */
+		@media only screen and (max-width: 768px) {
+			.tile {
+				width: 100%;
+				margin: 10px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- Header -->
+	<div class="header">
+		<a href="#">Home</a>
+		<a href="#">Product</a>
+		<a href="#">Profile</a>
+	</div>
+	
+	<!-- Body -->
+	<div class="body">
+		<div class="row">
+			<div class="tile">
+				<img src="image1.jpg" alt="Product 1">
+				<div class="product-title">Product 1</div>
+				<div class="product-price">$19.99</div>
+			</div>
+			<div class="tile">
+				<img src="image2.jpg" alt="Product 2">
+				<div class="product-title">Product 2</div>
+				<div class="product-price">$29.99</div>
+			</div>
+			<div class="tile">
+				<img src="image3.jpg" alt="Product 3">
+				<div class="product-title">Product 3</div>
+				<div class="product-price">$39.99</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="tile">
+				<img src="image4.jpg" alt="Product 4">
+				<div class="product-title">Product 4</div>
+				<div class="product-price">$49.99</div>
+			</div>
+			<div class="tile">
+				<img src="image5.jpg" alt="Product 5">
+				<div class="product-title">Product 5</div>
+				<div class="product-price">$59.99</div>
+			</div>
+			<div class="tile">
+				<img src="image6.jpg" alt="Product 6">
+				<div class="product-title">Product 6</div>
+				<div class="product-price">$69.99</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="tile">
+				<img src="image7.jpg" alt="Product 7">
+				<div class="product-title">Product 7</div>
+				<div class="product-price">$79.99</div>
+			</div>
+			<div class="tile">
+				<img src="image8.jpg" alt="Product 8">
+				<div class="product-title">Product 8</div>
+				<div class="product-price">$89.99</div>
+			</div>
+			<div class="tile">
+				<img src="image9.jpg" alt="Product 9">
+				<div class="product-title">Product 9</div>
+				<div class="product-price">$99.99</div>
+			</div>
+		</div>
+	</div>
+	
+<!-- Footer -->
+<div class="footer">
+  <p>&copy; 2023 E-Commerce Apparel Company</p>
+  <form>
+    <h2>Stay Connected</h2>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" placeholder="Email Address">
+    <button type="submit">Subscribe</button>
+  </form>
+</div>
